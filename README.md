@@ -1,5 +1,6 @@
 # Exemplo pegando seu ID de usuário
-```php<?php
+```php
+<?php
 require_once __DIR__.'/config.php';
 require_once __DIR__."/vendor/autoload.php";
 $Medium = new App\Medium();
@@ -14,7 +15,8 @@ echo "Meu ID de usuário é $my_user_id";
 
 
 # Exemplo fazendo uma postagem
-```php<?php
+```php
+<?php
 require_once __DIR__.'/config.php';
 require_once __DIR__."/vendor/autoload.php";
 $Medium = new App\Medium();
