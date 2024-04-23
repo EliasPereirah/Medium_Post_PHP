@@ -22,6 +22,7 @@ require_once __DIR__."/vendor/autoload.php";
 $Medium = new App\Medium();
 $content = "conteúdo em html ou texto puro aqui";
 $title = "Seu título aqui";
+$content = "<h1>$title</h1> \n$content"; /// para que o título apareça
 $url = "url do conteúdo original aqui"; // ficará como canonical no Medium -- em caso de repostagem de conteúdo de outro blog
 $tags = ['exemplo','outro']; // tags
 $status = $Medium->post($title, $content, $tags, $url);
